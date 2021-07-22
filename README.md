@@ -12,8 +12,9 @@ I wanted to plot on another more powerful machine and leave my farming machine (
 
 1. You will need to install 'inotify-tools' on your system.
 2. Modify the 'plotmover.sh' script to include your source directory 'SRCDIR' and your desitnation directory 'DESTDIR'
-3. Save the file and make it executable by 'chmod u+x plotmover.sh'
-4. Run the script, preferably in a tmux or screen session so if you close the terminal it will keep doing it's thing
+3. Modify the rsync line to have either your username@server: or delete that portion to just rsync locally
+4. Save the file and make it executable by 'chmod u+x plotmover.sh'
+5. Run the script, preferably in a tmux or screen session so if you close the terminal it will keep doing it's thing
 
 ## Tips
 - As plot files are named with the extension *.tmp, it won't move files until they are actually named *.plot
