@@ -4,7 +4,8 @@ Simple script to move Chia *.plot files to another directory using inotifywait
 This bash script uses inotifywait and rsync to detect newly created plot files in one directory and then moves them to another destination (local or remote) automatically.
 
 ## Why did I make this?
-Essentially, I am replotting my chia plots using https://github.com/madMAx43v3r/chia-plotter I wanted to plot on another more powerful machine and leave my farming machine (less powerful) to continue plotting. Therefore, I came up with this script to watch a directory 'SRCDIR' for *.plot files and move them to another machine by using rsync
+Essentially, I am replotting my chia plots for pools using https://github.com/madMAx43v3r/chia-plotter 
+I wanted to plot on another more powerful machine and leave my farming machine (less powerful) to continue plotting. Therefore, I came up with this script to watch a directory 'SRCDIR' for *.plot files and move them to another machine by using rsync.
 
 
 ## Getting Started
